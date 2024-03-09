@@ -1,20 +1,16 @@
 /* Navbar Styling and Media Querie */
-body {
-    box-sizing: border-box;
-    width: 100%;
-}
 
 #navbar {
   width: 90%;
   display: flex;
   justify-content: space-between;
-  padding: 2% 3%;
+  padding: 1% 3%;
 }
 .nav-div-2 > a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 .nav-div-2 {
@@ -27,6 +23,7 @@ body {
   color: red;
 }
 .list {
+  font-family: "Roboto", sans-serif;
   display: none;
   color: red;
 }
@@ -50,9 +47,6 @@ body {
 
 /* Navbar Media Queries For Tablets */
 @media screen and (min-width: 481px) and (max-width: 781px) {
-  /* #nav-section {
-    width: 100%;
-  } */
   .nav-div-2 > a {
     display: none;
   }
@@ -64,7 +58,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0px;
   }
 }
 
@@ -84,7 +77,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0px;
   }
 }
 
