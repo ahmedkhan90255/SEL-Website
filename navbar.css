@@ -37,11 +37,12 @@
   .list {
     display: inline;
     background-color: red;
+    text-align: end;
   }
   #navbar {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 70%;
+   
   }
 }
 
@@ -53,19 +54,17 @@
   .list {
     display: inline;
     background-color: red;
+    
   }
   #navbar {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 73%;
+   
   }
 }
 
 /* Navbar Media Queries For Laptops */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  #nav-section {
-    width: 100%;
-  }
   .nav-div-2 > a {
     display: none;
   }
@@ -74,9 +73,9 @@
     background-color: red;
   }
   #navbar {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 75%;
+   
   }
 }
 
