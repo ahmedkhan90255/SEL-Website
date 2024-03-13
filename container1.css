@@ -87,7 +87,11 @@
 
 /* Media Querie of Container 1 for mobiles */
 @media screen and (min-width:320px) and (max-width:480px) {
+    body {
+        width: 100%;
+    }
     #container1 {
+        width: 100%;
         height: 550px;
     }
     .container-1 {
