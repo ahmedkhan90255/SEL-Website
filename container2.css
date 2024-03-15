@@ -55,7 +55,7 @@
 /* Media Querie For Mobiles */
 @media screen and (min-width: 320px) and (max-width: 480px) {
   #container-2 {
-    width: 100%;
+    max-width: 90%;
     margin-top: 550px;
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@
     height: 50px;
   }
   .container-2-div-2-three-boxes {
-    max-width: 100%;
+    max-width: 90%;
     display: flex;
     justify-content: space-around;
   }
