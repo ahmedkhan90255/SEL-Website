@@ -20,9 +20,13 @@
   margin-bottom: 40px;
   color: #777777;
 }
+
+/* It is the 2nd div of container2 'Welcome to SEL Center' one. */
 .container-2-div-2 {
   margin-top: 210px;
 }
+
+/* These are the three boxes in which 'total donation' 'total projects' & 'volunteer' are. */
 .container-2-div-2-three-boxes {
   display: flex;
   justify-content: space-between;
@@ -79,6 +83,9 @@
     display: flex;
     justify-content: space-around;
   }
+  .container-2-div-2 > img {
+    width: 100%;
+  }
 }
 
 /* Media Querie For Tablets */
@@ -92,9 +99,8 @@
   .container-2-div-2 {
     margin-top: -190px;
   }
-  .container-1-div-1 {
+  .container-2-div-2 {
     width: 100%;
-    
   }
 }
 /* Media Querie For Laptops */
